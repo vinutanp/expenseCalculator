@@ -15,16 +15,18 @@ const IncomeExpense = () => {
   .reduce((acc,amt)=>(acc+=amt),0)
 
   return (
-    <div className='Income-expense'>
-        <div >
+    <>
+    <div className='details'>
+        
       <h4>Income</h4>
-      <p className='credit'>Rs.{income}</p>
+      <h4 className='credit'>₹{income}</h4>
       </div>
-      <div >
+      <div className='details'>
       <h4>Expense</h4>
-      <p className='debit'>Rs.{expense}</p>
+      <h4 className='debit'> ₹{expense}</h4>
+      
       </div>
-    </div>
+      </>
   )
 }
 

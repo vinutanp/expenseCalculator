@@ -10,7 +10,7 @@ import React from 'react';
 function App() {
   return (
     <GlobalProvider>
-      <div className='container-class'>
+      <div className='container'>
         <div className='centered-content'>
           <Heading />
           <Balance />

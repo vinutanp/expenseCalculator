@@ -8,9 +8,9 @@ const Balance = () => {
   console.log(amounts)
   const total=amounts.reduce((acc,item)=>acc+=item,0);
   return (
-    <div className="container">
-      <h2>Your Balance</h2>
-      <h1 id="balance"> Rs.{total}</h1>
+    <div className="details">
+      <h4>Your Balance</h4>
+      <h4 id="balance"> ₹{total}</h4>
     </div>
   );
 };

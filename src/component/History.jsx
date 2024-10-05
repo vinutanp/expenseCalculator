@@ -6,7 +6,7 @@ const History = () => {
   const {transactions}=useContext(globalContext)
   return (
     <div>
-      <h4>Transaction History</h4>
+      <h3>Transaction History</h3>
       <ul className="list-group">
         {transactions.map(transaction=>(
  <Transaction key={transaction.id} transaction={transaction}/>       ))
